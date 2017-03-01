@@ -1,0 +1,6 @@
+framework module Pods_LifterUITests {
+  umbrella header "Pods-LifterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

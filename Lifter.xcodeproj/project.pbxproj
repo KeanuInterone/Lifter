@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53939886E58A9D260971FB91 /* Pods_LifterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251F7E31C8B93CC94BF2C7EC /* Pods_LifterUITests.framework */; };
+		54603312BEC45EDF540DD3BA /* Pods_Lifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E509B5C86380BEE4E57EA53 /* Pods_Lifter.framework */; };
+		E1067EFA1E664FD000366909 /* LiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067EF91E664FD000366909 /* LiftCell.swift */; };
+		E1067EFC1E66501900366909 /* AddLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067EFB1E66501900366909 /* AddLiftCell.swift */; };
+		E1067EFE1E66505100366909 /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067EFD1E66505100366909 /* Lift.swift */; };
+		E1067F011E6650C400366909 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067F001E6650C400366909 /* Workout.swift */; };
+		E1067F031E66555500366909 /* LiftCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067F021E66555500366909 /* LiftCellController.swift */; };
 		E1A246371E5E48F2008C30C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246361E5E48F2008C30C2 /* AppDelegate.swift */; };
 		E1A246391E5E48F2008C30C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246381E5E48F2008C30C2 /* ViewController.swift */; };
 		E1A2463C1E5E48F2008C30C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2463A1E5E48F2008C30C2 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		E1A246411E5E48F2008C30C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2463F1E5E48F2008C30C2 /* LaunchScreen.storyboard */; };
 		E1A2464C1E5E48F2008C30C2 /* LifterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2464B1E5E48F2008C30C2 /* LifterTests.swift */; };
 		E1A246571E5E48F2008C30C2 /* LifterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246561E5E48F2008C30C2 /* LifterUITests.swift */; };
+		E1A246651E5E4CD9008C30C2 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246641E5E4CD9008C30C2 /* WorkoutViewController.swift */; };
+		EA76DCD80DD895D2888F5DB8 /* Pods_LifterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B567CE4FAE791E7F275C5 /* Pods_LifterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251F7E31C8B93CC94BF2C7EC /* Pods_LifterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E509B5C86380BEE4E57EA53 /* Pods_Lifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A48C3F68D2E83EC6ACF8E2 /* Pods-LifterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifterTests/Pods-LifterTests.release.xcconfig"; sourceTree = "<group>"; };
+		491B567CE4FAE791E7F275C5 /* Pods_LifterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5461429A8AE1DBA4BCE36D28 /* Pods-Lifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lifter/Pods-Lifter.debug.xcconfig"; sourceTree = "<group>"; };
+		9633C920328078EBC0C6DBDC /* Pods-LifterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifterUITests/Pods-LifterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A7D716A06275498CCD77B88 /* Pods-Lifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lifter/Pods-Lifter.release.xcconfig"; sourceTree = "<group>"; };
+		B2E7F98ABAC31FA57179999B /* Pods-LifterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifterUITests/Pods-LifterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1067EF91E664FD000366909 /* LiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftCell.swift; sourceTree = "<group>"; };
+		E1067EFB1E66501900366909 /* AddLiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLiftCell.swift; sourceTree = "<group>"; };
+		E1067EFD1E66505100366909 /* Lift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
+		E1067F001E6650C400366909 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		E1067F021E66555500366909 /* LiftCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftCellController.swift; sourceTree = "<group>"; };
 		E1A246331E5E48F2008C30C2 /* Lifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A246361E5E48F2008C30C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A246381E5E48F2008C30C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,8 @@
 		E1A246521E5E48F2008C30C2 /* LifterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A246561E5E48F2008C30C2 /* LifterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifterUITests.swift; sourceTree = "<group>"; };
 		E1A246581E5E48F2008C30C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A246641E5E4CD9008C30C2 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		F2BE65F243739351A7067605 /* Pods-LifterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifterTests/Pods-LifterTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54603312BEC45EDF540DD3BA /* Pods_Lifter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA76DCD80DD895D2888F5DB8 /* Pods_LifterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53939886E58A9D260971FB91 /* Pods_LifterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4850F35D88C871882494DB7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E509B5C86380BEE4E57EA53 /* Pods_Lifter.framework */,
+				491B567CE4FAE791E7F275C5 /* Pods_LifterTests.framework */,
+				251F7E31C8B93CC94BF2C7EC /* Pods_LifterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C9F95145CF49BFEB8F1BA1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5461429A8AE1DBA4BCE36D28 /* Pods-Lifter.debug.xcconfig */,
+				9A7D716A06275498CCD77B88 /* Pods-Lifter.release.xcconfig */,
+				F2BE65F243739351A7067605 /* Pods-LifterTests.debug.xcconfig */,
+				36A48C3F68D2E83EC6ACF8E2 /* Pods-LifterTests.release.xcconfig */,
+				B2E7F98ABAC31FA57179999B /* Pods-LifterUITests.debug.xcconfig */,
+				9633C920328078EBC0C6DBDC /* Pods-LifterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1067EF81E664FBA00366909 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1067EF91E664FD000366909 /* LiftCell.swift */,
+				E1067EFB1E66501900366909 /* AddLiftCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1067EFF1E66505B00366909 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1067EFD1E66505100366909 /* Lift.swift */,
+				E1067F001E6650C400366909 /* Workout.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E1067F041E66557B00366909 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1A246641E5E4CD9008C30C2 /* WorkoutViewController.swift */,
+				E1067F021E66555500366909 /* LiftCellController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E1A2462A1E5E48F2008C30C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +158,8 @@
 				E1A2464A1E5E48F2008C30C2 /* LifterTests */,
 				E1A246551E5E48F2008C30C2 /* LifterUITests */,
 				E1A246341E5E48F2008C30C2 /* Products */,
+				6C9F95145CF49BFEB8F1BA1D /* Pods */,
+				4850F35D88C871882494DB7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +176,9 @@
 		E1A246351E5E48F2008C30C2 /* Lifter */ = {
 			isa = PBXGroup;
 			children = (
+				E1067F041E66557B00366909 /* Controller */,
+				E1067EFF1E66505B00366909 /* Model */,
+				E1067EF81E664FBA00366909 /* Views */,
 				E1A246361E5E48F2008C30C2 /* AppDelegate.swift */,
 				E1A246381E5E48F2008C30C2 /* ViewController.swift */,
 				E1A2463A1E5E48F2008C30C2 /* Main.storyboard */,
@@ -132,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A2465B1E5E48F2008C30C2 /* Build configuration list for PBXNativeTarget "Lifter" */;
 			buildPhases = (
+				8E4C0C307623F4B7BD7F640B /* [CP] Check Pods Manifest.lock */,
 				E1A2462F1E5E48F2008C30C2 /* Sources */,
 				E1A246301E5E48F2008C30C2 /* Frameworks */,
 				E1A246311E5E48F2008C30C2 /* Resources */,
+				1BFF75DB3A3A89B1DE605F5B /* [CP] Embed Pods Frameworks */,
+				118F075E743526A7178A7126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A2465E1E5E48F2008C30C2 /* Build configuration list for PBXNativeTarget "LifterTests" */;
 			buildPhases = (
+				7EB4B51A6A6CFFF7806794FB /* [CP] Check Pods Manifest.lock */,
 				E1A246431E5E48F2008C30C2 /* Sources */,
 				E1A246441E5E48F2008C30C2 /* Frameworks */,
 				E1A246451E5E48F2008C30C2 /* Resources */,
+				5131AC46B531021A4D084E3E /* [CP] Embed Pods Frameworks */,
+				8AB02AC60F915936813D355B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A246611E5E48F2008C30C2 /* Build configuration list for PBXNativeTarget "LifterUITests" */;
 			buildPhases = (
+				5310566A456850CCD4169F54 /* [CP] Check Pods Manifest.lock */,
 				E1A2464E1E5E48F2008C30C2 /* Sources */,
 				E1A2464F1E5E48F2008C30C2 /* Frameworks */,
 				E1A246501E5E48F2008C30C2 /* Resources */,
+				0969E04AD5C3F06063D5B953 /* [CP] Embed Pods Frameworks */,
+				93E81A674BEF67E2B2E14DB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +284,7 @@
 				TargetAttributes = {
 					E1A246321E5E48F2008C30C2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATFS7QJ49K;
 						ProvisioningStyle = Automatic;
 					};
 					E1A246461E5E48F2008C30C2 = {
@@ -254,12 +346,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0969E04AD5C3F06063D5B953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifterUITests/Pods-LifterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		118F075E743526A7178A7126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifter/Pods-Lifter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BFF75DB3A3A89B1DE605F5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifter/Pods-Lifter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5131AC46B531021A4D084E3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifterTests/Pods-LifterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5310566A456850CCD4169F54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB4B51A6A6CFFF7806794FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB02AC60F915936813D355B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifterTests/Pods-LifterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4C0C307623F4B7BD7F640B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93E81A674BEF67E2B2E14DB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifterUITests/Pods-LifterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1A2462F1E5E48F2008C30C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1067EFE1E66505100366909 /* Lift.swift in Sources */,
+				E1067EFA1E664FD000366909 /* LiftCell.swift in Sources */,
+				E1067F011E6650C400366909 /* Workout.swift in Sources */,
+				E1A246651E5E4CD9008C30C2 /* WorkoutViewController.swift in Sources */,
+				E1067EFC1E66501900366909 /* AddLiftCell.swift in Sources */,
 				E1A246391E5E48F2008C30C2 /* ViewController.swift in Sources */,
+				E1067F031E66555500366909 /* LiftCellController.swift in Sources */,
 				E1A246371E5E48F2008C30C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +646,10 @@
 		};
 		E1A2465C1E5E48F2008C30C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5461429A8AE1DBA4BCE36D28 /* Pods-Lifter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATFS7QJ49K;
 				INFOPLIST_FILE = Lifter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keanuCode.Lifter;
@@ -422,8 +660,10 @@
 		};
 		E1A2465D1E5E48F2008C30C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7D716A06275498CCD77B88 /* Pods-Lifter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATFS7QJ49K;
 				INFOPLIST_FILE = Lifter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keanuCode.Lifter;
@@ -434,6 +674,7 @@
 		};
 		E1A2465F1E5E48F2008C30C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BE65F243739351A7067605 /* Pods-LifterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +689,7 @@
 		};
 		E1A246601E5E48F2008C30C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A48C3F68D2E83EC6ACF8E2 /* Pods-LifterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +704,7 @@
 		};
 		E1A246621E5E48F2008C30C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E7F98ABAC31FA57179999B /* Pods-LifterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LifterUITests/Info.plist;
@@ -475,6 +718,7 @@
 		};
 		E1A246631E5E48F2008C30C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9633C920328078EBC0C6DBDC /* Pods-LifterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LifterUITests/Info.plist;
@@ -505,6 +749,7 @@
 				E1A2465D1E5E48F2008C30C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A2465E1E5E48F2008C30C2 /* Build configuration list for PBXNativeTarget "LifterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +758,7 @@
 				E1A246601E5E48F2008C30C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A246611E5E48F2008C30C2 /* Build configuration list for PBXNativeTarget "LifterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +767,7 @@
 				E1A246631E5E48F2008C30C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,15 @@
+PODS:
+  - IQKeyboardManagerSwift (4.0.8)
+  - LBTAComponents (0.1.9)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - LBTAComponents (~> 0.1.9)
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  LBTAComponents: 9a5d314080d1f80208062ccc81a2d25225c5f572
+
+PODFILE CHECKSUM: 33393b564f4d272189531670ded21e8c4e2c413a
+
+COCOAPODS: 1.2.0
