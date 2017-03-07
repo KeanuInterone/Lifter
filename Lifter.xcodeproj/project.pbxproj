@@ -13,7 +13,6 @@
 		E1067EFC1E66501900366909 /* AddLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067EFB1E66501900366909 /* AddLiftCell.swift */; };
 		E1067EFE1E66505100366909 /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067EFD1E66505100366909 /* Lift.swift */; };
 		E1067F011E6650C400366909 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067F001E6650C400366909 /* Workout.swift */; };
-		E1067F031E66555500366909 /* LiftCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1067F021E66555500366909 /* LiftCellController.swift */; };
 		E1A246371E5E48F2008C30C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246361E5E48F2008C30C2 /* AppDelegate.swift */; };
 		E1A246391E5E48F2008C30C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A246381E5E48F2008C30C2 /* ViewController.swift */; };
 		E1A2463C1E5E48F2008C30C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2463A1E5E48F2008C30C2 /* Main.storyboard */; };
@@ -55,7 +54,6 @@
 		E1067EFB1E66501900366909 /* AddLiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLiftCell.swift; sourceTree = "<group>"; };
 		E1067EFD1E66505100366909 /* Lift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
 		E1067F001E6650C400366909 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		E1067F021E66555500366909 /* LiftCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftCellController.swift; sourceTree = "<group>"; };
 		E1A246331E5E48F2008C30C2 /* Lifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A246361E5E48F2008C30C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A246381E5E48F2008C30C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				E1A246641E5E4CD9008C30C2 /* WorkoutViewController.swift */,
-				E1067F021E66555500366909 /* LiftCellController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -495,7 +492,6 @@
 				E1A246651E5E4CD9008C30C2 /* WorkoutViewController.swift in Sources */,
 				E1067EFC1E66501900366909 /* AddLiftCell.swift in Sources */,
 				E1A246391E5E48F2008C30C2 /* ViewController.swift in Sources */,
-				E1067F031E66555500366909 /* LiftCellController.swift in Sources */,
 				E1A246371E5E48F2008C30C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
